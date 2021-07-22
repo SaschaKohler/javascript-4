@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,p{
+  margin:1em;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+input{
+  padding:1em;
+  font-size:0.5em;
+  border:2px solid black;
+  box-shadow:1px 1px 20px black, 5px 5px 20px green;
+  border-radius: 10px;
+}
+
+input:hover{
+  cursor:pointer;
+  box-shadow: 1px 1px 20px black, 5px 5px 30px green;
+}
+body {
+  font-size: 2em;
+}
+p:nth-last-child(an+b){}
