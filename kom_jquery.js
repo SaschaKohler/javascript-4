@@ -35,14 +35,14 @@
 
     // Excercise 8
 
-    // $('div').click( function(){
-    //   let color = $(this).attr('style').split(':');
-    //   $('p').text('That div is ' + color[1]);
-    //   $('p').fadeIn(200);
-    //   $('p').fadeOut(1000);
-    //
-    // })
+    $('div').click( function(){
+      let color = $(this).attr('style').split(':');
+      $('p').text('That div is ' + color[1]);
+      $('p').fadeIn(200);
+      $('p').fadeOut(1000);
 
-    
+  })
+
+
 
   });

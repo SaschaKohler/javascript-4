@@ -47,9 +47,11 @@ div {
 
 div:hover {
   cursor: pointer;
+
 }
 
 div:active {
+  box-shadow: 2px 2px 20px grey, 2px 2px 40px greenyellow;
   border: 3px solid yellow;
 }
 

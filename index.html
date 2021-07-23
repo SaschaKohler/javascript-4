@@ -6,50 +6,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <title>Document</title>
 </head>
 
 <body>
-  <ul>
-    <li><a href="kompetenzcheck.html">Kompetenzcheck</a></li>
+<header>
+  <ul class="mainNav">
+    <li class="mainNavElement"><a href="index2.html">Link 1</a></li>
+    <li class="mainNavElement"><a href="">Link 2</a></li>
+    <li class="mainNavElement"><a href="">Link 3</a></li>
+    <li class="mainNavElement"><a href="">Link 4</a></li>
+    <li class="mainNavElement"><a href="">Link 5</a></li>
   </ul>
-
   <main>
-    <article class="">
-      <h1></h1>
-      <p></p>
-      <input id="eingabe" />
+    <article>
+      <section>
+        <div class="card">
+          <div class="media">
+            <img src="https://via.placholder.com/200x300" alt="">
+            <div class="content">
+              <h3 class="cardHeader">Just funny</h3>
+              <p class="cardParagraph">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Velit, eveniet itaque hic pariatur vel soluta, recusandae sequi excepturi! Officiis debitis iure, excepturi corporis eos harum dolorum magnam beatae necessitatibus natus!
 
 
-      <p class="red"></p>
-      <p class="strong"></p>
-      <p></p>
-      <p class="red"></p>
-      <p></p>
-      <p></p>
-
+                 </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </article>
-
-
+    <article>
+      <section></section>
+    </article>
   </main>
-
-
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script>
-    $('p').text("Hier steht ein Abasatz");
-    $('p')[2].innerHTML = "Das ist der dritte Abasatz";
-    let red = $('.red');
-    for (let i = 0; i < red.length; i++) {
-      red[i].style.color = 'red';
-    }
-    $('.red').text('This is a red one');
-    $('h1').text('This is a header');
-    $('p.strong').html("this is a paragraph with a <strong> strong <strong> element");
-    $('#eingabe').val($('p.strong').html());
-    $('#eingabe').attr('size',100);
-    $('p:last-child()').text($('#eingabe').attr('size'));
-
-  </script>
+  <footer>
+    <ul class="footerNav">
+      <li class="footerNavElement"></li>
+      <li class="footerNavElement"></li>
+      <li class="footerNavElement"></li>
+      <li class="footerNavElement"></li>
+    </ul>
+  </footer>
+</header>
 </body>
 
 </html>
